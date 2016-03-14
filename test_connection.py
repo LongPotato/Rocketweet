@@ -14,7 +14,7 @@ class TestConnection(unittest.TestCase):
 		self.assertEqual(found, True, "tokens.py does not exist")
     	
     	
-    #Test for valid oauth connection	
+    	#Test for valid oauth connection	
 	def test_oauth(self):
 		c_key = TOKEN.CONSUMER_KEY
 		c_secret = TOKEN.CONSUMER_SECRET
